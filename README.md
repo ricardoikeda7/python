@@ -1,9 +1,9 @@
 # python for data analysis
 ### Importação de bibliotecas (libraries)
-import numpy as np 
-import pandas as pd
-%matplotlib inline
-from matplotlib import pyplot as plt 
+import numpy as np  
+import pandas as pd  
+%matplotlib inline  
+from matplotlib import pyplot as plt  
 
 ### Importar o dataset usando wget
 !wget -O planilha.csv https://endweb.com.br/labs/planilha.csv
