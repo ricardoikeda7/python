@@ -24,7 +24,7 @@ df.describe()
 df.shape
 
 ### Contar e exibir a quantidade de itens na coluna
-df['nome da coluna'].value_counts
+df['nome da coluna'].value_counts()
 
 ### Renomear colunas
 df.rename(columns={'Primeiro nome':'nome','numero':'num'},inplace=True)
